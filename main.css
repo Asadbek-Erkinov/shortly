@@ -387,3 +387,21 @@ img {
   display: flex;
   column-gap: 15px;
 }
+
+.advance-list {
+  background-image: url("./images/blueline.svg");
+  width: 1110px;
+  height: 8px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.input-link {
+  border: none;
+}
+
+.hero-button {
+  border: none;
+}
