@@ -336,11 +336,14 @@ img {
 }
 
 .advance-item {
+  position: relative;
+  top: 0;
   width: 350px;
   background-color: #fff;
   padding-inline: 32px;
   border-radius: 5px;
   padding-bottom: 41px;
+  padding-top: 77px;
 }
 
 .advance-item-title {
@@ -408,4 +411,29 @@ img {
 
 .hero-title {
   color: #34313D;
+}
+
+.advance-item::before {
+  position: absolute;
+  display: block;
+  width: 88px;
+  height: 88px;
+  background-image: url("./images/recognition.svg");
+  background-repeat: no-repeat;
+  background-color: #3A3054;
+  border-radius: 88px;
+  content: "";
+  bottom: 224px;
+}
+
+.records-item::before {
+  background-image: url("./images/records.svg");
+}
+
+.custom-item::before {
+  background-image: url("./images/custom.svg");
+}
+
+.advance-text-wrap {
+  margin-bottom: 135px; 
 }
