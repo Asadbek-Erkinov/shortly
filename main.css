@@ -150,7 +150,8 @@ img {
 }
 
 .site-aside {
-  background-color: #3A3054;
+  background-image: url("/images/asaidebackimg.svg");
+
 }
 
 .hero-link:hover {
@@ -262,11 +263,14 @@ img {
 }
 
 .form-inner {
+  background-image: url("/images/formbackimg.svg");
+  background-repeat: no-repeat;
+  width: 1110px;
+  height: 168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 64px;
-  padding-block: 52px;
 }
 
 
@@ -380,7 +384,7 @@ img {
 
 .hero-picture {
   position: relative;
-  left: 120px;
+  left: 184px;
 }
 
 .app-list {
